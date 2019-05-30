@@ -1,2 +1,4 @@
 k=input()
-print(k[::-1])
+def reverse(k):
+    print(k[::-1])
+reverse(k)
