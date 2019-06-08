@@ -8,6 +8,8 @@ for i in range(2,n+1):
             prime[temp]=False
             temp=i*count
             count+=1
-for i in range(m+1,n-1):
+count=0
+for i in range(m,n):
     if(prime[i]==True):
-        print(i,end=" ")
+        count=count+1
+print(count)
