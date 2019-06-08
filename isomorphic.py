@@ -1,6 +1,5 @@
-from collections import Counter
 n,m=input().split()
-if(Counter(n)==Counter(m)):
+if(len(set(n))==len(set(m))):
     print("yes")
 else:
     print("no")
