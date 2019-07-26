@@ -6,6 +6,8 @@ cost=0
 if(st1==st2):
     print(0)
 else:
+    if(st1>st2):
+        st1,st2=st2,st1
     for i in range(len(st1)):
         if(st1[i]!=st2[i]):
             cost +=1
